@@ -46,6 +46,7 @@
 
 .fieldset {
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
     width: 700px;
     height: 480px;
@@ -102,6 +103,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    width: 180px;
+
+ }
+
+ p {
+    font-size: 13px;
  }
 
 .terms_condition {
@@ -112,13 +119,20 @@
 .add_user {
     position: absolute;
     top: -10px;
-    left: 40px;
+    left: 100px;
     border: 1px solid black;
     display: inline;
     flex-wrap: wrap;
     background-color: white;
+
 }
 
+.comments_terms_condition {
+    display: block;
+}
+
+.submit_form {
+}
 .first_name {
     display: block;
     left: 40px;
