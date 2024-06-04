@@ -1861,58 +1861,68 @@
             <fieldset class="fieldset">
             <legend class="add_user">Add user</legend>
         
-            <div class="first_name">
-                <label for="firstName">First name</label>
-                <input type="text" id="firstName" name="first_name">
-            </div>
-        
-            <div>
-                <label for="lastName">Last name</label>
-                <input type="text" id="lastName" name="last_name">
-            </div>
-        
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email_address">
-            </div>
-        
-            <div>
-                <label for="role">Status</label>
-                <select id="role" name="user_role_name">
-                <option value="student">Student</option>
-                <option value="instructor">Instructor</option>
-                <option value="guest">Guest</option>
-                </select>
-            </div>
+            <div class="information">
+                <div class="first_name">
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
             
-            <div>
-                <p>Choose your favorite Web language:</p>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <div class="last_name">
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div class="first_name">
+            
+                <div class="email_address">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
             </div>
 
-            <div>
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
+            <div class="status_date">
+                <div class="status_jobs">
+                    <label for="role">Status</label>
+                    <select id="role" name="user_role_name">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div class="calendar_date">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
             </div>
 
-            <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
+            <div class="choose_favourite">
+                <div class="web_language">
+                    <p>Choose your favorite Web language:</p>
+                        <div class="input_fields">
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label><br>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </div>
+                </div>
             </div>
 
-            <div>
-                <input type="checkbox" id="signup" name="signup" value="Signup">
-                <label for="signup">Sign up for news letter</label><br>
-                <input type="checkbox" id="terms" name="terms" value="Terms">
-                <label for="terms"> Agree to terms and conditions</label>
+            <div class="comments_terms_condition">
+                <div class="comments_section">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div class="terms_condition">
+                    <input type="checkbox" id="signup" name="signup" value="Signup">
+                    <label for="signup">Sign up for news letter</label><br>
+                    <input type="checkbox" id="terms" name="terms" value="Terms">
+                    <label for="terms"> Agree to terms and conditions</label>
+                </div>
             </div>
-        
-            <div>
+
+            <div class="submit_form">
                 <button type="submit">Submit</button>
             </div>
         
