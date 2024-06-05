@@ -27,14 +27,6 @@
     height: 20px;
 }
 
-.parent-1 {
-}
-
-.parent-2 {
-}
-
-.parent-3 {
-}
 
 .form {
     position: absolute;
@@ -48,7 +40,7 @@
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
-    width: 700px;
+    width: 600px;
     height: 480px;
     position: relative;
     align-items: center;
@@ -61,15 +53,20 @@
 }
 
 .information {
-    display:flex;
+    display: block;
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    left: 200px;
-    width: 30px;;
-    height: 120px;
+    left: 220px;
+    width: 250px;;
+    height: 200px;
     top: 10px;
     
+}
+
+.first_name {
+    display: block;
+    width: 90px;
 }
 
 .status_date {
@@ -120,6 +117,8 @@
     position: absolute;
     top: -10px;
     left: 100px;
+    width: 100px;
+    height: 25px;
     border: 1px solid black;
     display: inline;
     flex-wrap: wrap;
@@ -132,12 +131,6 @@
 }
 
 .submit_form {
-}
-.first_name {
-    display: block;
-    left: 40px;
-    width: 100px;
-    margin: 10px;
 }
 
 .last_name {
@@ -161,7 +154,17 @@
     left: 50px;
 }
 
+.comments_terms_condition {
+    position: relative;
+    left: 200px;
+    top: 65px;
+}
 
+.terms_condition {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+}
 
 .submit_form {
     position: relative;
