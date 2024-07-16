@@ -66,6 +66,8 @@
 
 .first_name {
     display: block;
+    position: relative;
+    left: 10px;
     width: 90px;
 }
 
