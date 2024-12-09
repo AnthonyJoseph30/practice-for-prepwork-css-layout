@@ -27,13 +27,11 @@
     height: 20px;
 }
 
-
 .form {
     position: absolute;
     top: 150px;
     
 }
-
 
 
 .fieldset {
@@ -58,9 +56,10 @@
     flex-wrap: wrap;
     justify-content: center;
     left: 220px;
-    width: 250px;;
+    width: 200px;;
     height: 200px;
     top: 10px;
+    background-color: aqua;
     
 }
 
