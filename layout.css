@@ -36,7 +36,7 @@
 
 .fieldset {
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-wrap: wrap;
     width: 600px;
     height: 480px;
@@ -55,20 +55,31 @@
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    left: 220px;
+    left: 190px;
     width: 200px;;
     height: 200px;
     top: 10px;
-    background-color: aqua;
     
 }
 
 .first_name {
     display: block;
     position: relative;
-    left: 10px;
-    width: 90px;
+    left: 40px;
+    width: 100px;
 }
+
+label[for="firstName"] {
+    position: relative;
+    left: 10px;
+}
+
+input .first_name {
+    color: pink;
+    position: relative;
+    left: 40px;
+}
+
 
 .status_date {
     display:flex;
