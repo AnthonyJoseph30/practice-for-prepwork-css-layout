@@ -61,35 +61,35 @@
     top: 10px;
     
 }
-
+/* 
 .first_name {
     display: block;
     position: relative;
     left: 40px;
-    width: 100px;
-}
+    width: 200px;
+} */
 
-label[for="firstName"] {
+/* label[for="firstName"] {
     position: relative;
     left: 10px;
-}
+} */
 
-input .first_name {
+.input_boxes {
     color: pink;
     position: relative;
-    left: 40px;
+    width: 200px; 
 }
 
+.status_jobs {
+    position: absolute;
+    width: 70px;
+}
 
-.status_date {
-    display:flex;
-    position: relative;
-    justify-content: center;
-    left: 200px;
-    bottom: 100px;
-    width: 200px;
-    height: 50px;
-    top: 70px;
+.calendar_date{
+    position: absolute;
+    width: 70px;
+    left: 30px;
+
 }
 
 .choose_favourite {
@@ -151,22 +151,14 @@ input .first_name {
     display: block;
     left: 40px;
     width: 100px;
-    margin: 10px;
-
 }
 
 .email_address {
     display: block;
     left: 40px;
     width: 100px;
-    margin: 10px;
-
 }
 
-.calendar_date {
-    position: relative;
-    left: 50px;
-}
 
 .comments_terms_condition {
     position: relative;
